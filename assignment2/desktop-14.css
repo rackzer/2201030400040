@@ -1,0 +1,137 @@
+.rectangle-shape-icon1 {
+  height: 1024px;
+  width: 580px;
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+}
+.find-a-market {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.image-2-icon {
+  height: 26px;
+  width: 24px;
+  object-fit: cover;
+}
+.image-2-icon,
+.search-by-location {
+  position: relative;
+}
+.search-by-product-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 2px;
+}
+.image-1-icon {
+  height: 26px;
+  width: 24px;
+  object-fit: cover;
+}
+.image-1-icon,
+.search-by-product {
+  position: relative;
+}
+.search-by-product-frame1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 3px;
+}
+.product-marker-text,
+.search-by-location-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.search-by-location-frame {
+  flex-direction: column;
+  gap: 23px 0;
+}
+.product-marker-text {
+  flex-direction: row;
+  padding: 0 11px;
+  font-size: var(--font-size-11xl);
+}
+.search-frame {
+  flex-direction: column;
+  gap: 83px 0;
+}
+.desktop-15,
+.parent-frame1,
+.search-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.parent-frame1 {
+  flex-direction: column;
+  padding: 238px 0 0;
+  box-sizing: border-box;
+  min-width: 776px;
+  max-width: 100%;
+}
+.desktop-15 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  gap: 0 34px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 69px;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1325px) {
+  .parent-frame1,
+  .rectangle-shape-icon1 {
+    flex: 1;
+  }
+  .desktop-15 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .parent-frame1 {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .find-a-market {
+    font-size: 55px;
+  }
+  .search-by-location,
+  .search-by-product {
+    font-size: var(--font-size-5xl);
+  }
+  .search-frame {
+    gap: 83px 0;
+  }
+  .parent-frame1 {
+    padding-top: 155px;
+    box-sizing: border-box;
+  }
+  .desktop-15 {
+    gap: 0 34px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .find-a-market {
+    font-size: 41px;
+  }
+  .search-by-location,
+  .search-by-product {
+    font-size: var(--font-size-lg);
+  }
+  .search-frame {
+    gap: 83px 0;
+  }
+}

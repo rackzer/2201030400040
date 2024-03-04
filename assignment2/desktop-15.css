@@ -1,0 +1,101 @@
+.meet-our-farmers {
+  margin: 0;
+  position: absolute;
+  top: 70px;
+  left: 117px;
+  font-size: var(--font-size-43xl);
+  font-weight: 700;
+  font-family: inherit;
+}
+.image-1-icon1,
+.image-2-icon1,
+.image-3-icon {
+  position: absolute;
+  top: 243px;
+  left: 1012px;
+  width: 87px;
+  height: 87px;
+  object-fit: cover;
+}
+.image-2-icon1,
+.image-3-icon {
+  left: 526px;
+  width: 86px;
+}
+.image-3-icon {
+  left: 62px;
+}
+.primary-frame {
+  position: absolute;
+  top: 304px;
+  left: 125px;
+  width: 1px;
+  height: 26px;
+  overflow: hidden;
+}
+.artisanal-expertise,
+.meet-the-growers,
+.passion-for-sustainability {
+  margin: 0;
+  position: absolute;
+  top: 363px;
+  left: 62px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.artisanal-expertise,
+.passion-for-sustainability {
+  top: 355px;
+  left: 526px;
+}
+.artisanal-expertise {
+  left: 1012px;
+}
+.discover-the-sustainable,
+.explore-the-craft,
+.learn-about-the {
+  position: absolute;
+  top: 408px;
+  left: 62px;
+  font-size: var(--font-size-4xl);
+  font-weight: 500;
+  display: inline-block;
+  width: 355px;
+}
+.discover-the-sustainable,
+.explore-the-craft {
+  left: 526px;
+  width: 377px;
+}
+.explore-the-craft {
+  left: 1012px;
+  width: 327px;
+}
+.rectangle-one-icon,
+.secondary-frame-icon {
+  position: absolute;
+  top: 572px;
+  left: 717px;
+  border-radius: var(--br-96xl);
+  width: 695px;
+  height: 452px;
+  object-fit: cover;
+}
+.rectangle-one-icon {
+  top: 580px;
+  left: 28px;
+  width: 656px;
+  height: 444px;
+}
+.desktop-16 {
+  width: 100%;
+  height: 1024px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

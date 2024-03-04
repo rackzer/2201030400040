@@ -1,0 +1,206 @@
+.rectangle-shape-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.about-us {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.our-vision,
+.we-are-dedicated {
+  width: 269px;
+  height: 64px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.we-are-dedicated {
+  height: 455px;
+  width: 346px;
+  max-width: 100%;
+}
+.our-vision-parent,
+.we-are-dedicated-to-fostering-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.we-are-dedicated-to-fostering-wrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-11xl);
+}
+.our-vision-parent {
+  flex-direction: column;
+  gap: 58px 0;
+}
+.community-engagement,
+.we-believe-in {
+  position: relative;
+  z-index: 1;
+}
+.we-believe-in {
+  width: 314px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.community-engagement-parent,
+.we-believe-in-building-meaning-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.we-believe-in-building-meaning-wrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-6xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-11xl);
+}
+.community-engagement-parent {
+  flex-direction: column;
+  gap: 72px 0;
+}
+.our-commitment-is,
+.transparency-and-quality {
+  position: relative;
+  z-index: 1;
+}
+.our-commitment-is {
+  width: 357px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.our-commitment-is-to-ensure-tr-wrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-8xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-11xl);
+}
+.desktop-13,
+.our-commitment-is-to-ensure-tr-wrapper,
+.parent-frame,
+.transparency-and-quality-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.transparency-and-quality-parent {
+  flex-direction: column;
+  gap: 65px 0;
+  max-width: 100%;
+}
+.desktop-13,
+.parent-frame {
+  text-align: left;
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.parent-frame {
+  flex-direction: row;
+  gap: 0 51px;
+  max-width: 100%;
+  font-size: var(--font-size-17xl);
+}
+.desktop-13 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 56px var(--padding-7xl) 204px 75px;
+  box-sizing: border-box;
+  gap: 69px 0;
+  letter-spacing: normal;
+  font-size: var(--font-size-43xl);
+}
+@media screen and (max-width: 1350px) {
+  .parent-frame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .about-us {
+    font-size: var(--font-size-31xl);
+  }
+  .our-vision {
+    font-size: var(--font-size-10xl);
+  }
+  .we-are-dedicated {
+    font-size: var(--font-size-5xl);
+  }
+  .community-engagement {
+    font-size: var(--font-size-10xl);
+  }
+  .we-believe-in {
+    font-size: var(--font-size-5xl);
+  }
+  .transparency-and-quality {
+    font-size: var(--font-size-10xl);
+  }
+  .our-commitment-is {
+    font-size: var(--font-size-5xl);
+  }
+  .parent-frame {
+    gap: 0 51px;
+  }
+  .desktop-13 {
+    gap: 69px 0;
+    padding-left: 37px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-us {
+    font-size: var(--font-size-18xl);
+  }
+  .our-vision {
+    font-size: var(--font-size-3xl);
+  }
+  .we-are-dedicated {
+    font-size: var(--font-size-lg);
+  }
+  .our-vision-parent {
+    gap: 58px 0;
+  }
+  .community-engagement {
+    font-size: var(--font-size-3xl);
+  }
+  .we-believe-in {
+    font-size: var(--font-size-lg);
+  }
+  .community-engagement-parent {
+    gap: 72px 0;
+  }
+  .transparency-and-quality {
+    font-size: var(--font-size-3xl);
+  }
+  .our-commitment-is {
+    font-size: var(--font-size-lg);
+  }
+  .transparency-and-quality-parent {
+    gap: 65px 0;
+  }
+  .desktop-13 {
+    gap: 69px 0;
+  }
+}
